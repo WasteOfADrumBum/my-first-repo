@@ -1,0 +1,221 @@
+<!--DOCTYPE declaration-->
+
+<!DOCTYPE html>
+<html>
+
+<!--Head tag with a title tag-->
+
+<head>
+    
+    <title>My First HTML</title>
+
+    <!--Content Created by Joshua M. Small-->
+    <!--Instructions Provided by Alper Gokcehan of UNC Coding BootCamp-->
+
+    <style>
+
+        table, th, td {
+            max-width: 100%;
+            /* white-space:nowrap; from https://stackoverflow.com/ */
+            white-space: nowrap;
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 15px;
+        }
+
+        pre, code {
+            /* Get rid of indents in pre element */
+            white-space: pre-line;
+        }
+
+        ol.list-none {
+            /* Remove list numbers */
+            list-style-type: none;
+        }
+        
+        li {
+            padding: 5px;
+        }
+
+        ul {
+            /* Remove bullets */
+            list-style-type: none;
+        }
+
+    </style>
+
+    <!-- || HEADER || -->
+
+    <!--H1 tag with a title of my choice-->
+    <h1>My First HTML</h1>
+
+    <!--Embded Image-->
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+    
+    <br>
+
+    <!--Used <p> element to add "|" between links for aesthetic appearance -->
+    <p>
+
+        <!--target="_blank" so that it opens a new tab when clicked on.-->
+        <a href="https://www.Google.com/" target="_blank">Google</a> | 
+
+        <!--Same link just Bold-->
+        <a style="font-weight:bold" href="https://www.google.com/"  target="_blank">Google Bold</a> | 
+
+        <!--Link Placeholder, Goes Nowhere-->
+        <a>Google Placeholder</a>
+
+    </p>
+
+</head>
+
+<body>
+
+    <!-- || BONUS ACTIVITIES || -->
+    
+    <!-- || THE PERFECT SANDWICH || -->
+
+    <!--An ordered list of steps to make a sandwich-->
+    <!--Steps From https://www.instructables.com/id/How-to-make-an-amazing-sandwich/-->
+    <h2>How to Make a Perfect Sandwich:</h2>
+
+    <ol class="list-none">
+        <li>
+            <b>Step 1:</b><br>
+            Prepare the vegetables that you want to add to your sandwich.<br>
+            Tomatoes and lettuce are common vegetables added to sandwiches.<br>
+            Rinse all vegetables with clean water and dry them with a paper towel.<br>
+            Slice tomatoes and any other veggies that need slicing.
+        </li>
+
+        <li>
+            <b>Step 2:</b><br>
+            Gather the materials needed on a flat ,clean, and sanitary surface.<br>
+            Take out two slices of your favorite bread.<br>
+            Some of the most common types of bread are white, wheat, sourdough, multigrain, etc…
+        </li>
+
+        <li>
+            <b>Step 3:</b><br>
+            Open your favorite condiment jar.<br>
+            Insert spreading knife into the jar and load the desired amount of condiment onto knife.<br>
+            Then spread condiment evenly onto one side of a sliced piece of bread.<br>
+            You can repeat this step for any additional condiments that you wish to eat.<br>
+            You can mix some of the condiments together to try a variety of different flavors.<br>
+            Which condiments you put on your sandwich is only limited by your imagination.
+        </li>
+    
+        
+        <li>
+            <b>Step 4:</b><br>
+            Choose your favorite protein(s) and place onto one of the pieces of bread on the side with the condiment.<br>
+            Make sure to spread the protein(s) in a way will go all the way to the edge of the bread.<br>
+            If your meat is round, you can slice the protein(s) in half and place the straight edges along different sides of the piece of bread.<br>
+            This will allow you to enjoy the desired protein(s) flavor with every bite of your sandwich.
+        </li>
+        
+        <li>
+            <b>Step 5:</b><br>
+            Place your desired amount of the cheese you have chosen on top of the protein(s).<br>
+            Make sure add enough cheese to cover the entire sandwich.
+        </li>
+        
+        <li>
+            <b>Step 6:</b><br>
+            Place the desired toppings (sliced tomatoes, pickles, lettuce, etc.) on top of your cheese.
+        </li>
+        
+        <li>
+            <b>Step 7:</b><br>
+            Place the second slice of bread with the condiment covered side down on top of your toppings.
+        </li>
+        
+        <li>
+            <b>Step 8:</b><br>
+            If desired, slice sandwich into a shape that will make it easier to handle.<br>
+            Some common shapes are rectangles where you cut the sandwich down middle or triangles in which you cut the sandwich diagonally through the middle.<br>
+            You may also cut it into decorative shapes like stars or hearts if you are feeling imaginative.
+        </li>
+        
+        <li>
+            <b>Step 9:</b><br>
+            Serve and enjoy your sandwich.
+        </li>
+        
+        <li>
+            <b>Step 10:</b><br>
+            If your sandwich is too dry try removing one of the slices of bread and spreading more condiments on it.<br>
+            You may also try adding tomatoes or pickles to moisten your sandwich.
+        </li>
+
+    </ol>
+
+    <!-- || MUSICIANS I LIKE || -->
+
+    <!--An unordered list of 5 musicians I like-->
+    <h3>My Top 5 Favorite Drummers:</h3>
+
+    <ul>
+        <li>Ray Luzier</li>
+        <li>Buddy Rich</li>
+        <li>Neil Peart</li>
+        <li>Travis Barker</li>
+        <li>John Bonham</li>
+    </ul>
+
+    <!-- || ANIMALS BY CLASS AND NAME || -->
+
+    <!--A table with 2 columns (animal class and animal name) and 4 rows of animals-->
+    <h4>Animals by Class and Name:</h4>
+    
+    <table> 
+        <!--Colum:Row::th:tr-->
+        <tr>
+            <!--<th> tag used for table header-->
+            <th>Animal Class</th>
+            <th>Animal Name</th> 
+        </tr>
+        <tr>
+            <!--<td> tag are used as data containers for the table -->
+            <td>Reptilia</td>
+            <td>Plumed Basilisk "Jesus" Lizard</td>
+        </tr>
+        <tr>
+            <td>Chondrichthyes</td>
+            <td>Ornate Sleeper Ray</td>
+        </tr>
+        <tr>
+            <td>Mammalia</td>
+            <td>Giant Otter</td>
+        </tr>
+        <tr>
+            <td>Mammalia</td>
+            <td>Ili Pika</td>
+        </tr>
+        <!--Class information gathered from Wikipedia-->
+
+    </table>
+
+    <!-- || PRE EXAMPLE || -->
+
+    <!--An alternate way of separating links without line breaks usinf <pre>-->
+    <h5>Separating links without line breaks:</h5>
+        
+    <pre>
+        You can use the "br" element to insert a line break in html.
+        
+        You can use an alternate way of separating links without line breaks with the "pre" element.
+
+        Pretty awesome, huh!?
+    </pre>
+
+    <!-- || YOUTUBE VIDEO || -->
+
+    <!--Embed a Youtube video of my favorite musician.-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/eD3A4QYEguc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!--Source code from YouTube.com-->
+
+</body>
+
+</html>
